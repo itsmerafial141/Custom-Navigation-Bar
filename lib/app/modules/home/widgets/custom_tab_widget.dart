@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:sea_adventure/app/modules/values/strings.dart';
 
 import '../../values/colors.dart';
 import '../controllers/home_controller.dart';
@@ -59,7 +60,7 @@ class CustomTabWidget extends GetView<HomeController> {
               child: RotatedBox(
                 quarterTurns: -1,
                 child: Text(
-                  controller.listTabTittle[index],
+                  MyList.listTabTittle[index],
                   style: TextStyle(
                     color: Colors.white,
                   ),
